@@ -1,0 +1,6 @@
+*/META-INF/
+*/target/
+/.settings/
+*/.classpath
+*/.project
+*/.gitignore
