@@ -1,0 +1,6 @@
+2018-06-15 11:10:51.952 DEBUG 7496 --- [http-nio-8080-exec-1] c.boot.study.controller.HelloController  : debug
+2018-06-15 11:10:51.961  INFO 7496 --- [http-nio-8080-exec-1] c.boot.study.controller.HelloController  : info
+2018-06-15 11:10:51.961 ERROR 7496 --- [http-nio-8080-exec-1] c.boot.study.controller.HelloController  : error
+2018-06-15 11:12:07.741 DEBUG 7496 --- [http-nio-8080-exec-4] c.boot.study.controller.HelloController  : debug
+2018-06-15 11:12:07.741  INFO 7496 --- [http-nio-8080-exec-4] c.boot.study.controller.HelloController  : info
+2018-06-15 11:12:07.742 ERROR 7496 --- [http-nio-8080-exec-4] c.boot.study.controller.HelloController  : error
