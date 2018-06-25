@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+	<!-- <classPathEntry location="E:\workspace\nyxt\WebContent\WEB-INF\lib\sqljdbc4.jar" /> -->
+  <classPathEntry location="D:\java\.m2\repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar" />
+  <context id="context1" >
+  		<commentGenerator>  
+            <property name="suppressAllComments" value="true" /><!-- 是否取消注释 -->  
+            <property name="suppressDate" value="false" /> <!-- 是否生成注释代时间戳 -->  
+        </commentGenerator>
+        
+     <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.3.47:3306/sssm" userId="root" password="root" />
+    
+    <javaModelGenerator targetPackage="com.biandan.entity" targetProject="biandan-base/src/main/java" />
+    
+    <sqlMapGenerator targetPackage="mybatis" targetProject="biandan-base/src/main/resources" />
+    
+     <javaClientGenerator targetPackage="com.biandan.dao" targetProject="biandan-base/src/main/java" type="XMLMAPPER" /> 
+    
+     
+    <table domainObjectName="User" tableName="user" enableCountByExample="false" enableUpdateByExample="false"  
+            enableDeleteByExample="false" enableSelectByExample="false"  
+            selectByExampleQueryId="false"> 
+    </table>
+  </context>
+</generatorConfiguration>
